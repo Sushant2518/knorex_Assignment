@@ -88,8 +88,6 @@ public class VastParser {
 	        String impressionId = impression.getAttribute("id");
 	        String impressionUrl = impression.getTextContent();
 
-	        // More parsing logic goes here...
-
 	        return new VastData(version, id, title, description, impressionId, impressionUrl);
 	    }
 
